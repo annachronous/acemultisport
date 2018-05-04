@@ -1,0 +1,219 @@
+<! -- Filters malfunctioning --> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>ACE Multisport Events</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicon -->
+  <link href="img/ace_logo.jpg" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!--==========================
+  Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <!-- This is a placeholder logo image - will replace later. --> 
+      <div id="logo" class="pull-left">
+        <a href="index.html"><img src="img/ace_logo.jpg" alt="ace multisport logo" title="ace in the hole multisport logo" style="width: 20%"></a>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li class="menu-active"><a href="details.html">Course Details</a></li>
+          <li><a href="faq.html">F.A.Q</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+      Course Details
+    ============================-->
+    
+    <div id="details">
+      <div class="container wow fadeIn">
+        <div class="section-header">
+          <h3 class="section-title">Course Details</h3>
+          <p class="section-description">These courses will be available at our next event.</p>
+        
+      <!-- Filter for course descriptions -->     
+      <div id="course-filter">
+        <div class="row">
+
+            <div class="col-lg-12">
+                <ul id="course-flters">
+                  <li data-filter=".filter-run, .filter-swim, .filter-bike, .filter-begin, .filter-long, .filter-olympic, .filter-combo" class="filter-active">All</li>
+                  <li data-filter=".filter-run">Running</li>
+                  <li data-filter=".filter-swim">Swimming</li>
+                  <li data-filter=".filter-bike">Cycling</li>
+                  <li data-filter=".filter-begin">Beginner</li>
+                  <li data-filter=".filter-long">Long Courses</li>
+                  <li data-filter=".filter-olympic">Olympic Courses</li> 
+                  <li data-filter=".filter-combo">Combination Courses</li>    
+                </ul>
+            </div>
+
+        </div>
+      </div><!-- /#course-filter -->
+
+        </div>
+                    
+        <div class="row" id="course-wrapper">
+          <div class="col-lg-4 col-md-6 wow fadeInUp course-item filter-run filter-long" data-wow-delay="0.2s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-child fa-fw"></i></a></div>
+              <h4 class="title"><a href="">Long Course RUN – 13.1mi</a></h4>
+              <p>Start Time: Saturday June 23 at 7 am</p>
+              <h4>$240</h4>
+              <p class="description"> A mostly flat loop course on widely paved bike paths that traverse through and around this beautiful and scenic destination resort (two hills total with a minimal elevation gain).</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp course-item filter-swim filter-long" data-wow-delay="0.4s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-tint fa-fw"></i></a></div>
+              <h4 class="title"><a href="">Long Course SWIM – 1.2mi</a></h4>
+              <p>Start Time: Saturday June 23 at 7 am</p>
+              <h4>$240</h4>
+              <p class="description"> Participants will make two counter-clockwise loops. Large buoys will mark the turn points. Kayakers will be positioned on the water to support the swimmers. Medical support will be present on the beach.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp course-item filter-bike filter-long" data-wow-delay="0.6s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-bicycle fa-fw"></i></a></div>
+              <h4 class="title"><a href="">Long Course BIKE – 58 Miles</a></h4>
+              <p>Start Time: Saturday June 23 at 7 am</p>
+              <h4>$240</h4>
+              <p class="description"> A scenic point-to-point course that travels over gently rolling hills prior to three hard climbs. The bike course will be marked with large directional signage and there will be course marshals at key intersections to help direct you. </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 wow fadeInUp course-item filter-swim filter-olympic" data-wow-delay="0.2s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-tint fa-fw"></i></a></div>
+              <h4 class="title"><a href="">OLYMPIC SWIM – 1,500 meters</a></h4>
+              <p>Start Time: Saturday June 23 at 7:30 am</p>
+              <h4>$110</h4>
+              <p class="description">Participants will make two counter-clockwise loops. Large buoys will mark the turn points. Kayakers will be positioned on the water to support the swimmers. Medical support will be present on the beach.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp course-item filter-bike filter-olympic" data-wow-delay="0.4s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-bicycle fa-fw"></i></a></div>
+              <h4 class="title"><a href="">OLYMPIC BIKE – 28mi</a></h4>
+              <p>Start Time: Saturday June 23 at 7:30 am</p>
+              <h4>$110</h4>
+              <p class="description">A scenic point-to-point course that travels over gently rolling hills. The bike course will be marked with large directional signage and course marshals will be present at key intersections.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp course-item filter-run filter-olympic" data-wow-delay="0.6s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-child fa-fw"></i></a></div>
+              <h4 class="title"><a href="">OLYMPIC RUN – 10K</a></h4>
+              <p>Start Time: Saturday June 23 at 7:30 am</p>
+              <h4>$110</h4>
+              <p class="description">A mostly flat loop course on widely paved bike paths that traverse through and around this beautiful and scenic destination resort (one hill total with a minimal elevation gain).</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp course-item filter-combo filter-olympic" data-wow-delay="0.6s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-child fa-fw"></i></a></div>
+              <h4 class="title"><a href="">Sprint</a></h4>
+              <p>Start Time: Sunday June 24 at 8 am</p>
+              <h4>$90</h4>
+              <p class="description">Course will offer a 1-loop 1/2 mile swim, the exact same 28 mile Bike Course as the Olympic distance and a 5km run.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp course-item filter-combo filter-begin" data-wow-delay="0.6s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-child fa-fw"></i></a></div>
+              <h4 class="title"><a href="">Try-A-Tri</a></h4>
+              <p>Start Time: Sunday June 24 at 8:20 am</p>
+              <h4>$65</h4>
+              <p class="description"> This novice race is designed for the first time triathlete, those new to the sport, our Junior Triathletes. The swim is a shorter, more manageable 1/4 mile distance, (instead of the standard 1/2-mile Sprint distance swim), 10 mile bike ride (vs 12 miles and it's a 2 loop course making it very spectator friendly!) and a flat 2 mile run (vs 3 mile sprint course).</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp course-item filter-run filter-begin" data-wow-delay="0.6s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-child fa-fw"></i></a></div>
+              <h4 class="title"><a href="">Half Marathon COURSE: Half-Marathon (13.1-miles)</a></h4>
+              <p>Start Time: Saturday June 23 at 7:15 am</p>
+              <h4>$75</h4>
+              <p class="description">Half-Marathon event starts and finishes in the Athletes Village to the cheers of the enthusiastic crowd. Once finished, runners can enjoy the finish line festivities, including the Sports &amp; Fitness Expo and live entertainment. Post-race refreshments will be provided and the Awards Ceremony for the Half-Marathon will begin once the results have been certified.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp course-item filter-run filter-olympic" data-wow-delay="0.6s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-child fa-fw"></i></a></div>
+              <h4 class="title"><a href="">10k COURSE</a></h4>
+              <p>Start Time: Saturday June 23 at 7:15 am</p>
+              <h4>$50</h4>
+              <p class="description">The 10K event starts and finishes in the Athletes Village. The paths are approximately 6 ft wide, perfectly paved and wind around through the forest. Each course has only two small hills with a minimal elevation gain to navigate and a fast downhill to flat finish to the roaring cheers of the crowd.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div><!-- #details -->
+  
+    <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright 2018 <strong>Anna Gallishaw</strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
